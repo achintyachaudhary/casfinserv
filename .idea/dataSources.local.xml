@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="PY-231.9011.38">
+    <data-source name="Django default" uuid="4f5323e7-3365-488e-8918-f76e3fc31d85">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <user-name>achintya</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="AWS RDS" uuid="42bbb977-aac3-4bb0-9129-c7e877746f05">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>

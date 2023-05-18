@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'core'
 ]
 
 MIDDLEWARE = [
@@ -71,15 +72,13 @@ WSGI_APPLICATION = 'casfinserv.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': "casfinserv",
-        'USER': 'casfinserv',
-        'PASSWORD': 'casfinserv',
-        'HOST': 'casfinserv.cr9s93dg4v6i.us-east-1.rds.amazonaws.com',
+        'NAME': 'achintya',
+        'USER': 'achintya',
+        'PASSWORD': 'achintya',
+        'HOST': 'achintya.cr9s93dg4v6i.us-east-1.rds.amazonaws.com',
         'PORT': 5432,
-
     }
 }
 
@@ -121,3 +120,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
