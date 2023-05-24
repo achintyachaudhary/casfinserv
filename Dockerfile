@@ -12,5 +12,5 @@ RUN pip install -r requirements.txt
 
 RUN python manage.py migrate
 
-#CMD ["./docker_run_script.sh"]
+CMD ["./docker_run_script.sh"]
 CMD [ "python", "manage.py", "runserver", "0.0.0.0:8000" ]

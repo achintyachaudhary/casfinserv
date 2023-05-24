@@ -18,6 +18,7 @@ class BTSTStock(models.Model):
     percentage_change = models.DecimalField(decimal_places=2, max_digits=10)
     volume = models.IntegerField()
     created_at = models.DateTimeField(auto_now_add=True)
+    next_day_opening = models.DecimalField(decimal_places=2, max_digits=10)
 
     def __str__(self):
-        return f'{self.stock} {self.closing_price}'
+        return f'{self.stock}: {self.closing_price}'
