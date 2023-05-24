@@ -8,3 +8,4 @@ echo "Run script launched"
 app_location="/Users/achintyaranjanchaudhary/Documents/projects/casfinserv"
 echo 'running app now'
 python3 ${app_location}/boot_script/check_scheduler.py
+python3 ${app_location}/boot_script/opening_market_script.py
