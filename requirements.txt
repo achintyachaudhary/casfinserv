@@ -1,5 +1,5 @@
 Django
-psycopg2-binary==2.9.6
-requests==2.30.0
-py5paisa==0.7.1
-beautifulsoup4==4.12.2
+psycopg2-binary
+requests
+py5paisa
+beautifulsoup4
