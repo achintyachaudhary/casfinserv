@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8f99035-1d8f-470d-9684-b020f02a574c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_script/opening_market_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/boot_script/opening_market_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule_cron" beforeDir="false" afterPath="$PROJECT_DIR$/schedule_cron" afterDir="false" />
-    </list>
+    <list default="true" id="e8f99035-1d8f-470d-9684-b020f02a574c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +176,7 @@
       <updated>1684021703120</updated>
       <workItem from="1684147983692" duration="26612000" />
       <workItem from="1684384929710" duration="9349000" />
-      <workItem from="1684403628513" duration="13483000" />
+      <workItem from="1684403628513" duration="13885000" />
     </task>
     <servers />
   </component>

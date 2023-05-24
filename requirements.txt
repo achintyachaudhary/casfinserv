@@ -1,4 +1,4 @@
-Django==4.2.1
+Django
 psycopg2-binary==2.9.6
 requests==2.30.0
 py5paisa==0.7.1
