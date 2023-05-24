@@ -1,2 +1,2 @@
-* * * * * /Users/achintyaranjanchaudhary/Documents/projects/casfinserv/venv/bin/python /Users/achintyaranjanchaudhary/Documents/projects/casfinserv/boot_script/check_scheduler.py
- >> /var/log/abc.log 2>&1
+27 9 * * * python3 /home/ubuntu/casfinserv/boot_script/check_scheduler.py
+45 3 * * * python3 /home/ubuntu/casfinserv/boot_script/opening_market_script.py

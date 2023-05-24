@@ -4,9 +4,9 @@ from core.models import BTSTStock, Stock
 
 
 class BTSTAdmin(admin.ModelAdmin):
-    list_display = ('stock', 'closing_price', 'percentage_change', 'volume', 'created_at')
-    list_filter = ('stock', 'closing_price', 'percentage_change', 'volume', 'created_at')
-    search_fields = ('stock', 'closing_price', 'percentage_change', 'volume', 'created_at')
+    list_display = ('stock', 'closing_price', 'percentage_change', 'next_day_opening', 'volume', 'created_at')
+    list_filter = ('stock', 'closing_price', 'percentage_change', 'volume', 'next_day_opening', 'created_at')
+    search_fields = ('stock', 'closing_price', 'percentage_change', 'volume', 'next_day_opening', 'created_at')
 
 
 class StockAdmin(admin.ModelAdmin):
