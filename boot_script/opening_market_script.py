@@ -21,7 +21,7 @@ def stock_opening_price():
     current_datetime_utc = datetime.utcnow()
 
     # Subtract one day using timedelta
-    one_day = timedelta(days=0)
+    one_day = timedelta(days=1)
     yesterday_datetime_utc = current_datetime_utc - one_day
 
     # Set the time to 9:27 AM
